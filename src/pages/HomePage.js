@@ -25,7 +25,7 @@ const HomePage = () => {
     <div>
       <Helmet>
         <title>Ricette Vegetariane</title>
-        {/* Altre impostazioni di Helmet se necessario */}
+    
       </Helmet>
       <Header />
       <h1>Ricette Vegetariane</h1>
