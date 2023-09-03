@@ -23,7 +23,7 @@ const SearchBar = ({ onSearch }) => {
     } finally {
       setTimeout(() => {
         setIsLoading(false);
-      }, 3000); // Attendi 3 secondi prima di nascondere il loader
+      }, 3000); 
     }
   };
 
@@ -48,7 +48,7 @@ const SearchBar = ({ onSearch }) => {
           {recipes.map((recipe) => (
             <div key={recipe.id} className="recipe">
               <h3>{recipe.title}</h3>
-              {/* Aggiungi qui il resto dei dettagli della ricetta */}
+              
             </div>
           ))}
         </div>
