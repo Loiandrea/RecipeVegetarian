@@ -4,11 +4,11 @@ import { HelmetProvider } from 'react-helmet-async'; // Importa HelmetProvider
 import './App.css';
 import HomePage from './pages/HomePage';
 import RecipeDetail from './components/RecipeDetail/RecipeDetail';
-import { Helmet } from 'react-helmet-async'; // Importa Helmet da react-helmet-async
+import { Helmet } from 'react-helmet-async'; 
 
 function App() {
   return (
-    <HelmetProvider> {/* Avvolgi tutto il tuo albero di componenti */}
+    <HelmetProvider> 
       <Router>
         <div className="App">
           <Routes>
